@@ -1,0 +1,27 @@
+! input 1
+! start_state A
+! Koniec B
+% A
+0 0 R A
+1 1 R A
+$ $ R C
+% C
+0 $ R C
+1 $ R C
+$ 0 L D
+% D
+0 $ L D
+1 $ L D
+$ $ R E
+% E
+0 0 R E
+1 1 R E
+$ $ L F
+% F
+0 $ L F
+1 $ L F
+$ $ R G
+% G
+0 0 R G
+1 1 R G
+$ $ L A
