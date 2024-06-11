@@ -1,0 +1,53 @@
+! input 52172512764263219572917423475276626
+! start_state poczatkowy
+! Koniec koniec
+! podzielnosc_przez 3
+% poczatkowy
+0 0 R poczatkowy
+1 1 R poczatkowy
+2 2 R poczatkowy
+3 3 R poczatkowy
+4 4 R poczatkowy
+5 5 R poczatkowy
+6 6 R poczatkowy
+7 7 R poczatkowy
+8 8 R poczatkowy
+9 9 R poczatkowy
+_ _ L sprawdz_podzielnosc
+% sprawdz_podzielnosc
+0 0 L sprawdz_podzielnosc
+1 1 L sprawdz_podzielnosc
+2 2 L sprawdz_podzielnosc
+3 3 L sprawdz_podzielnosc
+4 4 L sprawdz_podzielnosc
+5 5 L sprawdz_podzielnosc
+6 6 L sprawdz_podzielnosc
+7 7 L sprawdz_podzielnosc
+8 8 L sprawdz_podzielnosc
+9 9 L sprawdz_podzielnosc
+_ _ R dziel_przez_3
+% dziel_przez_3
+0 0 R dziel_przez_3
+1 1 R dziel_przez_3
+2 2 R dziel_przez_3
+3 0 R dziel_przez_3
+4 1 R dziel_przez_3
+5 2 R dziel_przez_3
+6 0 R dziel_przez_3
+7 1 R dziel_przez_3
+8 2 R dziel_przez_3
+9 0 R dziel_przez_3
+_ _ R sprawdz_wynik
+% sprawdz_wynik
+0 _ R koniec
+1 _ R nie_podzielna
+2 _ R nie_podzielna
+3 _ R koniec
+4 _ R nie_podzielna
+5 _ R nie_podzielna
+6 _ R koniec
+7 _ R nie_podzielna
+8 _ R nie_podzielna
+9 _ R koniec
+% nie_podzielna
+_ _ R koniec
